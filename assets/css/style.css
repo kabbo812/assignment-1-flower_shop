@@ -41,7 +41,7 @@ h2{
     text-transform: capitalize;
 }
 .section-padding{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .banner-area{
     background-color: rgba(229, 84, 115, 0.1);
@@ -110,4 +110,21 @@ h2{
 	color: rgba(39, 39, 39, 0.8);
 	font-size: 24px;
 	margin-top: 20px;
+}
+.dear-area {
+	background-color: rgba(229, 84, 115, 0.1);
+}
+.deal-content{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.left-deal-area {
+	text-align: center;
+}
+.left-deal-area h2> span{
+    font-size: 40px;
+    color: rgba(229, 84, 115, 1);
+    font-weight: 900;
+    text-transform: capitalize;
 }
