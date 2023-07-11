@@ -19,6 +19,9 @@
 	max-width: 610px;
 	width: 100%;
 }
+.long{
+	margin: 32px 0;
+}
 .center{
     margin: 0 auto;
     text-align: center;
@@ -122,7 +125,8 @@ h2{
 .left-deal-area {
 	text-align: center;
 }
-.left-deal-area h2> span{
+.left-deal-area h2> span,
+.footer-area h2 {
     font-size: 40px;
     color: rgba(229, 84, 115, 1);
     font-weight: 900;
@@ -146,6 +150,7 @@ h2{
 }
 .instagram-box{
 	background: url("../images/Rectangle\ 9.png") no-repeat scroll center;
+	border-radius: 8px;
 }
 input {
 	border: none;
@@ -158,6 +163,18 @@ input {
 button{
 	border: none;
 }
-.box-title{
-	
+.footer-area{
+	background-color: #000;
+}
+.footer-content h2 > span{
+	color: #FFF;
+	font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.footer-content p{
+	color: #FFF;
+}
+.copyright{
+	font-size: 16px;
 }
